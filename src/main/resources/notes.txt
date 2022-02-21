@@ -1,0 +1,22 @@
+Prject Structure:
+
+-Domain (will contain):
+ *DTO & domain objects
+ *Services
+ *Repository specification
+
+-WEB (will contain)
+ *API controllers
+
+-Persistence
+ *Repositories
+ *Entities
+
+
+
+
+ Example:
+
+ Client do a call to one api controller
+ -> api controller go to the service
+ -> the service go to the repository and do something
