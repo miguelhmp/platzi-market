@@ -17,7 +17,7 @@ public class Cliente {
 
   private String apellidos;
 
-  private Integer celular;
+  private String celular;
 
   private String direccion;
 
